@@ -1,0 +1,126 @@
+body {
+    font-family: "proxima nova bold", "Helvetica Neue", "Helvetica", "Arial", Sans-serif;
+    background-image: url(steve-harvey-U4wcrDteZ2Y-unsplash.jpg);
+      background-attachment: scroll;
+      background-size: cover;
+      background-position: top;
+      text-align: center;
+  }
+  
+  form_info {
+    background-color: black;
+      color: white;
+      text-align: center;
+  }
+  
+  button {
+    border: 0;
+    border-radius: 15px;
+    font-size: 20px;
+      color: black;
+      background-color: white;
+    font-family: "proxima nova bold", "Helvetica Neue", "Helvetica", "Arial", Sans-serif;
+    text-transform: capitalize;
+      cursor: pointer;
+      margin-top: 15px;
+      margin-left: -40px;
+  }
+  
+  button:hover {
+    background-color: black;
+      color: white;
+      transition: 0.8s;
+  }
+  
+  input[type="password"] {
+    border: 2px solid white;
+      border-radius: 10px;
+    background-color: white;
+       border-color: white;
+  }
+  input[type="email"] {
+    border: 2px solid white;
+      border-radius: 10px;
+    background-color: white;
+       border-color: white;
+  } 
+  .two h1 {
+    margin-top: 130px;
+    font-weight: normal;
+    /* position: relative; */
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    color: white;
+    display: block;
+    padding-top: -15px;
+    font-size: 3.5rem;
+    line-height: 1.2;
+    font-family: "proxima nova bold", "Helvetica Neue", "Helvetica", "Arial", Sans-serif;
+  }
+  
+  label {
+    font-family: "proxima nova bold", "Helvetica Neue", "Helvetica", "Arial", Sans-serif;
+      font-size: 25px;
+      text-transform: capitalize;
+      text-decoration: none;
+      color: white;
+  }
+  
+  th{
+      height: 40px;
+      text-transform: uppercase;
+      text-align: left;
+      font-size: 20px;
+  }
+  
+  
+  .one ul{
+    list-style-type: none;
+    padding-left: 380px;
+    width: 100%;
+    margin: -130px;
+    position: fixed;
+    overflow: hidden;
+    background-color: black;  
+  }
+  .one li{
+    text-transform: uppercase;
+    margin-right: 10px;
+    float: left;
+    font-size: 25px;
+  }
+  .one a{
+    color: white;
+    display: block;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background:  black;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+  }
+  .one a:hover{
+    transition: 0.8s;
+    background-color: white;
+    color: black;
+    font-family: "proxima nova bold", "Helvetica Neue", "Helvetica", "Arial", Sans-serif;
+  }
+  .three p{
+    color: white;
+    font-family: "proxima nova bold", "Helvetica Neue", "Helvetica", "Arial", Sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    padding-left: -50px;;
+    }
+    .three a{
+    color: red;
+    text-decoration: underline;
+    background: none;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    }
+  
+  

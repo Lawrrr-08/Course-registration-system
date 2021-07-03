@@ -1,0 +1,122 @@
+
+body{
+    font-family: "proxima nova bold", "Helvetica Neue", "Helvetica", "Arial", Sans-serif;
+    background-image: url(steve-harvey-U4wcrDteZ2Y-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: 10px;
+}
+
+h1{
+    margin-top: 129.6px;
+    font-weight: 400;
+    /* position: relative; */
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    color: white;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: "proxima nova bold", "Helvetica Neue", "Helvetica", "Arial", Sans-serif;
+}
+
+ h2{
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: "proxima nova bold", "Helvetica Neue", "Helvetica", "Arial", Sans-serif;;
+    font-size: 25px;
+    text-decoration: none;
+    float: left;
+    font-weight: normal;
+}
+p{
+    font-family: "proxima nova bold", "Helvetica Neue", "Helvetica", "Arial", Sans-serif;;
+    font-size: 15px;
+    line-height: 22px;
+    float: left;
+    text-align: left;
+     display:flex; 
+    flex-direction: column;
+    align-items: center;
+
+}
+ul{
+    list-style-type: none;
+    padding-left: 380px;
+    width: 100%;
+    margin: -130px;
+    position: fixed;
+    overflow: hidden;
+    background-color: black;  
+  }
+  li{
+    text-transform: uppercase;
+    margin-right: 10px;
+    float: left;
+    font-size: 25px;
+  }
+  a{
+    color: white;
+    display: block;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background:  black;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+  }
+  a:hover{
+    transition: 0.8s;
+    background-color: white;
+    color: black;
+    font-family: "proxima nova bold", "Helvetica Neue", "Helvetica", "Arial", Sans-serif;
+  }
+
+.container{
+
+font-size: 15px;
+display: flex;
+flex-wrap: wrap;
+font-weight: bold;
+color: white;
+font-family: "proxima nova bold", "Helvetica Neue", "Helvetica", "Arial", Sans-serif;
+
+}
+
+.part1{
+  font-family: "proxima nova bold", "Helvetica Neue", "Helvetica", "Arial", Sans-serif;
+  flex-basis: 25%;
+padding-left: 60px;
+
+}
+
+.part2{
+  font-family: "proxima nova bold", "Helvetica Neue", "Helvetica", "Arial", Sans-serif;
+  flex-basis: 25%;
+padding-left: 50px;
+/* padding-right: 10px; */
+}
+
+.part3{
+  font-family: "proxima nova bold", "Helvetica Neue", "Helvetica", "Arial", Sans-serif;
+  flex-basis: 21%;;
+  padding-left: 40px;
+
+}
+
+.part4{
+  font-family: "proxima nova bold", "Helvetica Neue", "Helvetica", "Arial", Sans-serif;
+  flex-basis: 15%;
+  margin-left: 50px;
+
+}
+
+
+
